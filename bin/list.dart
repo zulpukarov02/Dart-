@@ -13,6 +13,9 @@ void main(List<String> args) {
   print(birList);
   birList.clear();
   print(birList);
+  print(birList.isEmpty);
+  // birList.add(6 * 7);
+  print(birList);
 
   // Olko kyrgyzstan = Olko();
   // print(kyrgyzstan.kalky);

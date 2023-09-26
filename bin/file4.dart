@@ -1,16 +1,24 @@
 void main() {
   // List => [] тизме
-  List birList = ['Kurs', 12, true, 23.45, "Kurs", 12, 232.45];
-  print(birList[2]);
+  // List birList = [10, 10.5, " text", true, true, 10];
+  // print(birList);
 
   // Set => {}
-  Set birSet = {'Kurs', 12, true, 23.45, 12, "Kurs"};
-  print(birSet);
+  // Set birSet = {'Kurs', 12, true, 23.45, 10, "text"};
+  // print(birSet);
 
   // Map => {} (dictionary) сөздүк
-  Map birMap = {12: "On eki", "Hello": "Salam", 'Name': "At"};
-  print(birMap['Hello']);
-  print(birMap['Name2']);
+  Map birMap = {
+    12: 10,
+    10.5: "text",
+    true: "Oba",
+    false: "jok",
+  };
+  print(birMap[true]);
+  print(birMap["text"]);
+
+  // print(birMap['Hello']);
+  // print(birMap['Name2']);
 }
 
 /*

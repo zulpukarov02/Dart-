@@ -4,12 +4,12 @@ import 'package:sabak2/sabak2.dart' as sabak2;
 //   print('Hello world: ${sabak2.calculate()}!');
 // }
 
-void main(List<String> arguments) {
+void main() {
   print('kurs'.runtimeType);
   print(12.runtimeType);
   print(12.34.runtimeType);
   print(true.runtimeType);
-
+  print(10.bitLength);
   String atalganString = 'kurs';
 
   Function birFunksiaBarabarMenen = () {
